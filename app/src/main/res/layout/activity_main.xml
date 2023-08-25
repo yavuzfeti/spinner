@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/main_activity_spinner_gender"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_txt_gender"/> -->
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_spinner_age"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/ekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:onClick="ekle"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view_main"/>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_txt_age"/>-->
+</LinearLayout>
